@@ -1,0 +1,11 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-04-01 17:07:09 --> Query error: Unknown column 'transactions.itemCode' in 'on clause' - Invalid query: SELECT items.name, SUM(transactions.quantity) as 'totSold' FROM items 
+                INNER JOIN transactions ON items.code=transactions.itemCode GROUP BY transactions.itemCode ORDER BY totSold DESC LIMIT 5
+ERROR - 2018-04-01 17:14:23 --> 404 Page Not Found: Public/images
+ERROR - 2018-04-01 17:47:45 --> Severity: error --> Exception: syntax error, unexpected 'use' (T_USE) C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 469
+ERROR - 2018-04-01 17:53:10 --> Severity: error --> Exception: syntax error, unexpected 'use' (T_USE) C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 469
+ERROR - 2018-04-01 18:03:34 --> Severity: Warning --> require_once(C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\/vendor/mike42/escpos-php/autoload.php): failed to open stream: No such file or directory C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 11
+ERROR - 2018-04-01 18:03:34 --> Severity: Compile Error --> require_once(): Failed opening required 'C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\/vendor/mike42/escpos-php/autoload.php' (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 11
+ERROR - 2018-04-01 18:04:36 --> Severity: Warning --> require_once(C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers/vendor/mike42/escpos-php/autoload.php): failed to open stream: No such file or directory C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 11
+ERROR - 2018-04-01 18:04:36 --> Severity: Compile Error --> require_once(): Failed opening required 'C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers/vendor/mike42/escpos-php/autoload.php' (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\Mini-Inventory-and-Sales-Management-System\application\controllers\Transactions.php 11
